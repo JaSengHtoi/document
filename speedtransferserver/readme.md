@@ -61,7 +61,7 @@ A modern, feature-rich real-time chat application built with Flask and Socket.IO
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/speed-transfer.git
+git clone https://github.com/bawkli/speed-transfer.git
 cd speed-transfer
 ```
 
