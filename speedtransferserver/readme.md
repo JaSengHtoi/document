@@ -219,7 +219,7 @@ Login user with username/user_id and password
 **Request Body:**
 ```json
 {
-  "username": "john_doe",
+  "username": "bawkli",
   "password": "password123"
 }
 ```
@@ -237,8 +237,8 @@ Register new user account
 
 **Request Body (Form Data):**
 ```
-username: john_doe
-email: john@example.com
+username: bawkli 
+email: bawkli@example.com
 password: password123
 bio: Hello World
 profile_pic: [File]
@@ -306,7 +306,7 @@ Permanently block a user
 **Request Body:**
 ```json
 {
-  "username": "john_doe"
+  "username": "bawkli"
 }
 ```
 
@@ -316,7 +316,7 @@ Unblock a user
 **Request Body:**
 ```json
 {
-  "username": "john_doe"
+  "username": "bawkli"
 }
 ```
 
@@ -326,7 +326,7 @@ Temporarily ban user
 **Request Body:**
 ```json
 {
-  "username": "john_doe",
+  "username": "bawkli",
   "hours": 24
 }
 ```
@@ -337,7 +337,7 @@ Delete user account (admin)
 **Request Body:**
 ```json
 {
-  "username": "john_doe"
+  "username": "bawkli"
 }
 ```
 
@@ -347,7 +347,7 @@ Reset user password (admin)
 **Request Body:**
 ```json
 {
-  "username": "john_doe",
+  "username": "bawkli",
   "new_password": "newpass123"
 }
 ```
@@ -371,7 +371,7 @@ Get detailed user activity logs
 {
   "success": true,
   "user": {
-    "username": "john_doe",
+    "username": "bawkli",
     "user_id": "USR-20241119-ABC123",
     "messages_sent": 150,
     "messages_received": 200,
@@ -420,7 +420,7 @@ file: [File]
 **`send_message`**
 ```javascript
 socket.emit('send_message', {
-  recipient: 'john_doe',
+  recipient: 'bawkli',
   message: 'Hello!',
   type: 'text',
   file_url: '',
@@ -431,7 +431,7 @@ socket.emit('send_message', {
 **`get_messages`**
 ```javascript
 socket.emit('get_messages', {
-  recipient: 'john_doe',
+  recipient: 'bawkli',
   is_group: false
 });
 ```
@@ -439,7 +439,7 @@ socket.emit('get_messages', {
 **`typing`**
 ```javascript
 socket.emit('typing', {
-  recipient: 'john_doe',
+  recipient: 'bawkli',
   is_group: false
 });
 ```
