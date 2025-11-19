@@ -373,11 +373,11 @@ Get detailed user activity logs
   "success": true,
   "user": {
     "username": "bawkli",
-    "user_id": "USR-20241119-ABC123",
+    "user_id": "USR-20251119-ABC123",
     "messages_sent": 150,
     "messages_received": 200,
-    "created_at": "2024-11-19 10:30 AM",
-    "last_seen": "2024-11-19 05:45 PM"
+    "created_at": "2025-11-19 10:30 AM",
+    "last_seen": "2025-11-19 05:45 PM"
   },
   "activities": [...],
   "chat_stats": [...]
